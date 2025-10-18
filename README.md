@@ -14,10 +14,10 @@ The aim of this project is to:
 - Provide tools for running simulations with reproducible randomness.
 - Explore empirical probabilities and confirm theoretical predictions.
 
-## Quick Start Guide
+## QUICK START GUIDE
 
 To run the analysis of Penney's Game, use uv to sync the virtual environment. After that, run `main.py` in the virtual environment.
-You will be prompted as to if you want to augment the data. Then will be prompted as to the number of decks you wish to add to the dataset. After that, analysis wil be run and the heatmaps will be generated and saved in the **`figures/`** folder.
+You will be prompted as to if you want to augment the data. Then will be prompted as to the number of decks you wish to add to the dataset. After that, analysis wil be run and the heatmaps of the empirical probabilites of winning (and drawing) will be generated and saved in the **`figures/`** folder. If you do not wish to augment the data, the heatmaps that contail the empirical probabilites will be (re)generated.
 
 ## File Descriptions
 
