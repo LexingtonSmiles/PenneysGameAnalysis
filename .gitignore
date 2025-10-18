@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Data, outputs, and figures
+data/
+outputs/
+figures/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Other
+.DS_Store
+.ipynb_checkpoints/
