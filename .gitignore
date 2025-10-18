@@ -1,11 +1,3 @@
-# Virtual environment
-.venv/
-
-# Data, outputs, and figures
-data/
-outputs/
-figures/
-
 # Python caches
 __pycache__/
 *.pyc
