@@ -6,7 +6,6 @@ This repository stores the first project of DATA 440 in Fall 2025: Penney's Game
 - **Humble–Nishiyama Randomness Game** is a variation of Penney’s Game which features a deck of playing cards that substitutes the heads and tails of a coin with 26 red cards and 26 black cards.
 
 ## Purpose
-67
 
 This code simulates the Humble-Nishiyama Randomness Game, a variation on Penney's Game. Read the details [here](https://mathwo.github.io/assets/files/penney_game/humble-nishiyama_randomness_game-a_new_variation_on_penneys_coin_game.pdf).
 
