@@ -34,7 +34,7 @@ You will be prompted as to if you want to augment the data. Then will be prompte
     - **`scoring.py`**: This script contains functions for loading the deck files, scoring the games, and calculating win/loss/draw statistics.
     - **`heatmap.py`**: This script contains functions for generating heatmaps from the scoring data.
     - **`wrappers.py`**: This script contains a decorator for measuring the performance of file read/write operations.
-    - 
+    
 - **`DataGeneration.md`**: This file provides a detailed explanation of the data generation and storage methods that were tested and the results of those tests.
 
 - **`Scoring.md`**: This file provides a detailed explanation of the scoring logic and the different methods that were considered.
