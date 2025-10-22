@@ -20,8 +20,7 @@ To run the analysis of Penney's Game follow the steps below:
 1) Install UV (if you have not yet done so).
    - This project is managed using UV. If you do not yet have UV installed or need help troubleshooting issues with UV, refer to their [documentation](https://docs.astral.sh/uv/guides/install-python/).
 2) Download the repository
-3) Use **`cd [insert the directory name here]`** to navigate to the directory
-4) Run: **`uv sync`** to install dependencies.
+3) Navigate to the directory and run: **`uv sync`** to install dependencies.
 5) Run the program with the command: **`uv run main.py`**
 6) Chose whether or not to augment the data. It is recommended to respond with **`Yes`**.
 7) Enter the number of decks you wish to add to the dataset.
