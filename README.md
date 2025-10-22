@@ -16,8 +16,15 @@ The aim of this project is to:
 
 ## QUICK START GUIDE
 
-To run the analysis of Penney's Game, use uv to sync the virtual environment. After that, run `main.py` in the virtual environment.
-You will be prompted as to if you want to augment the data. Then will be prompted as to the number of decks you wish to add to the dataset. After that, analysis wil be run and the heatmaps of the empirical probabilites of winning (and drawing) will be generated and saved in the **`figures/`** folder. If you do not wish to augment the data, the heatmaps that contail the empirical probabilites will be (re)generated.
+To run the analysis of Penney's Game follow the steps below:
+1) Install dependencies.
+   - This project is managed using UV. If you do not yet have UV installed or need help troubleshooting issues with UV, refer to their [documentation](https://docs.astral.sh/uv/guides/install-python/).
+   - Once you have UV installed, download the repository, navigate to the directory and run: uv sync to install dependencies.
+3) Run the program with the command: uv run main.py
+4) You will be prompted as to if you want to augment the data. It is recommended to say yes
+5) Then will be prompted as to the number of decks you wish to add to the dataset.
+6) After that, analysis wil be run and the heatmaps of the empirical probabilites of winning (and drawing) will be generated and saved in the **`figures/`** folder.
+7) If you do not wish to augment the data, the heatmaps that contail the empirical probabilites will be (re)generated.
 
 ## File Descriptions
 
