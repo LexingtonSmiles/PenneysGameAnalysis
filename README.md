@@ -7,7 +7,7 @@ This repository stores the first project of DATA 440 in Fall 2025: Penney's Game
 
 ## Purpose
 
-This code simulates the Humble-Nishiyama Randomness Game, a variation on Penney's Game. 
+This code simulates the Humble-Nishiyama Randomness Game, a variation on Penney's Game.  For this project we also included a third variant in which the game is scored by total cards won instead of the number of tricks won. 
 
 The aim of this project is to:
 - Generate and store randomized decks of outcomes.
