@@ -22,7 +22,7 @@ To run the analysis of Penney's Game follow the steps below:
 2) Download the repository
 3) Navigate to the directory and run: **`uv sync`** to install dependencies.
 4) Run the program with the command: **`uv run main.py`**
-5) You will be prompted as to if you want to augment the data. It is recommended to respond with **`Yes`**.
+5) Chose whether or not to augment the data. It is recommended to respond with **`Yes`**.
 6) Enter the number of decks you wish to add to the dataset.
 7) Now analysis will run and the heatmaps of the empirical probabilites of winning (and drawing) will be generated and saved in the **`figures/`** folder.
    - If you chose not to augment the data, the heatmaps that contail the empirical probabilites will be (re)generated.
