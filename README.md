@@ -3,15 +3,13 @@
 This repository stores the first project of DATA 440 in Fall 2025: Penney's Game.
 
 - **Penney’s Game** is a paradoxical coin-tossing game where two players choose different sequences of coin flips (e.g., `HTH` vs `TTH`). Despite appearing fair, one sequence always has a probabilistic advantage over the other. Read the details of the Penney's Game [here](https://en.wikipedia.org/wiki/Penney%27s_game).
-   - The authors note a general rule for winning based on what the opponent chooses:
+   - The authors note a general rule for picking your combination based on what the opponent chooses:
       - "For the first player's choice of 1-2-3 the second player must choose (not-2)-1 where (not-2) is the opposite of the second choice of the first player."
 - **Humble–Nishiyama Randomness Game** is a variation of Penney’s Game which features a deck of playing cards that substitutes the heads and tails of a coin with 26 red cards and 26 black cards. Read the details of Humble–Nishiyama Randomness Game [here](https://mathwo.github.io/assets/files/penney_game/humble-nishiyama_randomness_game-a_new_variation_on_penneys_coin_game.pdf).
-- We have added a third component to this game: how the game is scored. Originally, the player with the most tricks won comes out victorious. However, we have included an analysis of who would win based on the amount of cards won instead. Each time a player's sequence comes up, instead of counting that as one win, the number of cards in the current pile is added to their score, which determines who wins. When scoring this way, the rule for winning
+- We have added a third component to this game: how the game is scored. Originally, the player with the most tricks won comes out victorious. However, we have included an analysis of who would win based on the amount of cards won instead. Each time a player's sequence comes up, instead of counting that as one win, the number of cards in the current pile is added to their score, which determines who wins. When scoring this way, the general rule for picking the optimal combination does not provide the best combination 100% of the time.
 
 ## Purpose
 The main purpose of this code is to reflect the best possible sequence to pick based on what the opponent chooses in a heatmap so you can always beat your friends >:)
-
-This code simulates the Humble-Nishiyama Randomness Game, a variation on Penney's Game. For this project we also included a third variant in which the game is scored by total cards won instead of the number of tricks won. 
 
 The aim of this project is to:
 - Generate and store randomized decks of outcomes.
