@@ -10,6 +10,7 @@ This repository stores the first project of DATA 440 in Fall 2025: Penney's Game
 
 ## Purpose
 The main purpose of this code is to reflect the best possible sequence to pick based on what the opponent chooses in a heatmap so you can always beat your friends >:)
+The code is set up in a way in which our results are reproducible, which backs up our scores and probabilities.
 
 The aim of this project is to:
 - Generate and store randomized decks of outcomes.
